@@ -1,0 +1,51 @@
+<view class="bg">
+  <image src="{{list.bg}}"></image>  
+</view>
+<view class="txt">
+    <view class="r_title">{{list.title}}</view>
+    <view class="add">{{list.subtitle}}</view>
+    <view class="date"><image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn-1259662524/shijian.png" class="icon"></image>
+    <text>{{list.date}}</text></view>
+    <view class="add2">
+      <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn-1259662524/dizhi.png" class="icon"></image>
+      <text>{{list.add}}</text>
+      <button style="width:100%;position:absolute;top:250rpx;right:-170rpx;background:0;" open-type="share"><image src="../../images/fenxiang.png" class="icon fx"></image></button>
+    </view>
+    <view class="bto">
+      <text class="price">￥{{list.price}}</text>
+    </view>
+  </view>
+  <view>
+  <view class="title"><text>购买须知</text><view class="jx"></view></view>
+</view>
+<view class="buy" bindtap="buy">购买</view>
+<view style="margin-top:30rpx;">
+  <view class="txt1">
+  {{list.txt}}
+  </view>
+  <view class="txt2">
+  我只想和你们一起
+
+在这个夏天去追逐
+
+内心的热爱与躁动
+
+不管我们相隔多远
+
+  </view>
+  <view class="txt3">
+  每一次的约定都是为了下次的遇见
+<text>{{txt}}</text>
+<text>{{txt}}</text>
+AYO！我们不见不散从来不是一句谎话
+<text>{{txt}}</text>
+<text>{{txt}}</text>
+和自己的死党，闺蜜甚至是HIPHOP同好
+<text>{{txt}}</text>
+在这个夏天一起在AYO！的沙滩上留下
+自己炙热的脚印
+
+
+MUCH LOVE
+  </view>
+</view>

@@ -1,0 +1,101 @@
+<swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true' interval='3000' duration='1000' circular='true'>
+  <block wx:for="{{imgUrls}}" wx:for-index="index">
+    <swiper-item>
+      <image src='{{item}}' class='u-img-slide' mode='aspectFill'></image>
+    </swiper-item>
+  </block>.ac.acxxasax
+</swiper>
+<view class="search">
+  <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/search.png" class="search_img" bindtap="setSearchStorage"></image>
+  <input placeholder="活动名称/场地/艺人"  focus="{{focus}}" bindinput="bindInput"></input>
+</view>
+<view style="padding:30rpx;position:relative">
+  <view class="txt">
+  <view class="title">热门活动</view>
+  <view class="jx"></view>
+  <view class="more" bindtap="onClose">
+    <text style="margin-left:150rpx">  更多</text>
+    <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/right.png" class="right"></image>
+  </view>
+</view>
+</view>
+<view class="ac">
+  <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/ac3.jpg" style="margin-left:15rpx" bindtap="change" data-id="25c59b425d3fb35b062c8d673aeeccf8"></image>
+  <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/ac2.jpg" style="margin-left:60rpx" bindtap="change" data-id="26b301645d3fb501062c47434b8d6cba"></image>
+</view>
+<view style="padding:30rpx;position:relative">
+  <view class="txt">
+  <view class="title">演出活动</view>
+  <view class="jx"></view>
+  <view class="more" bindtap="onClose">
+    <text>全部活动</text>
+    <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/right.png" class="right"></image>
+  </view>
+</view>
+</view>
+<view class="ac">
+  <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/ac4.jpg" bindtap="change" data-id="face13585d3fceae06474a39789e2a7c"></image>
+  <view class="right_txt">
+    <view class="r_title">2019 AYO!音乐节三周年</view>
+    <view class="add">上海站</view>
+    <view class="date">2019.08.02-2019.08.04</view>
+    <view class="add2">上海青浦区沪青平公路6888号</view>
+    <view class="bto">
+      <text class="price">￥398-2688</text>
+      <view class="like">
+        <image src="{{like1}}" bindtap="like1" data-time="{{time1}}"></image>
+        <text>{{time1}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="ac" style="margin-top:30rpx">
+  <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/ac5.jpg" bindtap="change" data-id="face13585d3fcf370647dcb505749c7a"></image>
+  <view class="right_txt">
+    <view class="r_title">[午夜心碎俱乐部]</view>
+    <view class="add">大DLyn2019巡演</view>
+    <view class="date">2019.08.02-2019.08.17</view>
+    <view class="add2">查看活动详情</view>
+    <view class="bto">
+      <text class="price">￥120</text>
+      <view class="like">
+        <image src="{{like2}}"  bindtap="like2" data-time="{{time2}}"></image>
+        <text>{{time2}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="ac" style="margin-top:30rpx">
+  <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/ac6.jpg" bindtap="change" data-id="26b301645d3fcfc806456be0049c55d3"></image>
+  <view class="right_txt">
+    <view class="r_title">正经疯人院</view>
+    <view class="add">一个疯了的艺术家</view>
+    <view class="date">2019.06.06-2019.08.31</view>
+    <view class="add2">黄陂南路站838中海寰宇一号</view>
+    <view class="bto">
+      <text class="price">￥69-195</text>
+      <view class="like">
+        <image src="{{like3}}"  bindtap="like3" data-time="{{time3}}"></image>
+        <text>{{time3}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+<van-popup
+  show="{{ show }}"
+  position="bottom"
+  overlay="{{ true }}"
+  bind:click-overlay="onOpen"
+>
+<view  class="ul">
+    <view>全部活动</view>
+    <view>学生票</view>
+    <view>演出活动</view>
+    <view>热门活动</view>
+    <view>往期回顾</view>
+    <view class="quxiao" bindtap="onOpen">取消</view>
+  </view>
+</van-popup>
+<!-- <van-toast id="van-toast" /> -->
+  

@@ -1,0 +1,35 @@
+<!--pages/mine/mine.wxml-->
+<view style="background:#fff;margin-bottom:20rpx">
+  <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/mine.jpg" class="mine"></image>
+<view class="name">LOVEIS404NOTFOUND</view>
+<view class="liebiao">
+  <view class="jl">
+    <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/ewm.png"></image>
+    <view>我的票据</view>
+  </view>
+  <view class="shu">|</view>
+  <view class="jl">
+    <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/xin.png"></image>
+    <view>全部订单</view>
+  </view>
+  <view class="shu">|</view>
+  <view class="jl">
+    <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/ewm.png"></image>
+    <view>我的收藏</view>
+  </view>
+</view>
+</view>
+
+<view class="li">
+  <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/local.png"></image>
+  <text>收件地址</text>
+</view>
+<view class="li">
+  <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/kefu.png"></image>
+  <text>联系客服</text>
+</view>
+<view class="li">
+  <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/tucao.png"></image>
+  <text>我要吐槽</text>
+</view>
+

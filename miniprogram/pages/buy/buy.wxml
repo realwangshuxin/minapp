@@ -1,0 +1,31 @@
+<!--pages/buy/buy.wxml-->
+<view class="top">
+  <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn-1259662524/ac3.jpg"></image>
+  <view class="txt">
+     <view class="title">{{arr.title}}</view>
+     <view class="tiny">{{arr.date}}</view>
+     <view class="tiny">{{arr.add}}</view>
+     <view class="price">￥{{arr.price}}</view>
+  </view>
+</view>
+<view class="input">
+  <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/Icon_wode.png"></image>
+<input placeholder="您的姓名" class="name"></input>
+</view>
+<view class="input">
+  <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/shouji.png"></image>
+<input placeholder="您的手机号" class="name"></input>
+</view>
+
+<view class="date">2019.08.02-2019.08.31</view>
+<view class="ticket" wx:for="{{arr.list}}" wx:key="index">
+  <view class="border">
+    <text class="price2">￥{{item.price2}}</text>
+    <text>|</text>
+    <view>
+      <view>{{item.name}}</view>
+      <view>{{item.deline}}</view>
+      <view class="ps">{{item.ps}}</view>
+    </view>
+  </view>
+</view>

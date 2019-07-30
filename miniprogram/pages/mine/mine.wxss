@@ -1,0 +1,47 @@
+.mine{
+  width: 30%;
+  margin: 40rpx 280rpx;
+  border-radius: 50%;
+  height:210rpx
+}
+.name{
+  width: 60%;
+  margin: 0 auto;
+  font-size: 40rpx;
+  font-weight: bold
+}
+.liebiao{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 26rpx;
+  font-weight: bold;
+  margin: 60rpx 55rpx
+}
+.liebiao image{
+  width: 100%;
+  height: 90rpx;
+}
+.shu{
+  font-size: 50rpx;
+  color: #aaa;
+  margin-left: 50rpx
+}
+.jl{
+   margin-left: 50rpx;
+}
+.li{
+  width: 100%;
+  padding: 40rpx;
+  font-size: 26rpx;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 20rpx
+}
+.li image{
+  width: 6%;
+  height: 50rpx;
+  margin-right: 20rpx
+}
