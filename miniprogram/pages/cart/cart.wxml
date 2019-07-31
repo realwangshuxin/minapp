@@ -1,0 +1,63 @@
+<!--pages/cart/cart.wxml-->
+<view class="top">
+  <view class="title">{{result.title}}</view>
+  <view class="add">
+    <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/dizhi2.png"></image>
+    <text>{{result.add}}</text>
+  </view>
+</view>
+
+<view style="padding: 30rpx;border-bottom:2rpx solid #aaa;background:#fff">
+  <view class="detail">
+  <text class="left">票型</text>
+  <text  class="right">{{result.list[0].name}}</text>
+  </view>
+</view>
+<view style="padding: 30rpx;border-bottom:2rpx solid #aaa;background: #fff">
+  <view class="detail">
+  <text class="left">入场时间</text>
+  <text  class="right">2019.08.02</text>
+  </view>
+</view>
+<view style="padding: 30rpx;background: #fff">
+  <view class="detail">
+  <text class="left">{{result.ps}}</text>
+  </view>
+</view>
+
+<view style="padding: 30rpx;border-bottom:2rpx solid #aaa;margin-top:30rpx;background: #fff">
+  <view class="detail">
+  <text class="left">单价</text>
+  <text  class="right">￥{{price}}</text>
+  </view>
+</view>
+<view style="padding: 30rpx;background: #fff">
+  <view class="detail">
+  <text class="left">数量</text>
+  <view  class="right btn">
+    <button style="margin-right:20rpx" bindtap="down">-</button>
+    <text style="margin-right:20rpx">{{count}}</text>
+    <button bindtap="up">+</button>
+  </view>
+  </view>
+</view>
+
+<view style="padding: 30rpx;margin-top:30rpx;background: #fff">
+  <view class="detail">
+  <text class="left">联系手机</text>
+  <text  class="right">{{phone}}</text>
+  </view>
+</view>
+<view style="padding: 30rpx;margin-top:30rpx;background: #fff">
+  <view class="detail">
+  <text class="left">客服联系方式</text>
+  <text  class="right">猜猜我是谁</text>
+  </view>
+</view>
+
+<view class="fix">
+  <text class="bl">不支持退换票</text>
+  <text class="bl zl">应付￥</text>
+  <text class="price">{{total}}</text>
+  <view class="buy">付款</view>
+</view>

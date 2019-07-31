@@ -1,7 +1,8 @@
 <!--pages/mine/mine.wxml-->
 <view style="background:#fff;margin-bottom:20rpx">
-  <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/mine.jpg" class="mine"></image>
-<view class="name">LOVEIS404NOTFOUND</view>
+  <image src="{{src}}" class="mine"></image>
+<view class="name">{{name}}</view>
+<button class="dl" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo" wx:if="{{login}}">请点击登录</button>
 <view class="liebiao">
   <view class="jl">
     <image src="cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn/ewm.png"></image>
@@ -33,3 +34,19 @@
   <text>我要吐槽</text>
 </view>
 
+
+<view wx:if="{{canIUse}}" class="show" wx:if="{{show}}">
+    <view class='header'>
+        <image src='cloud://wangshuxin-78uzn.7761-wangshuxin-78uzn-1259662524/mine.jpg'></image>
+    </view>
+    <view class='content'>
+        <view>申请获取以下权限</view>
+        <text>获得你的公开信息(昵称，头像等)</text>
+    </view>
+    <view class="dianji">
+      <view bindtap="yes">允许</view>
+      <view bindtap="no">拒绝</view>
+    </view>
+</view>
+ 
+ 

@@ -1,0 +1,89 @@
+/* pages/cart/cart.wxss */
+.top{
+  width: 100%;
+  height: 170rpx;
+  background: #000;
+  color: #fff;
+  text-align: center
+}
+.title{
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-top: 30rpx
+}
+.add{
+  width: 100%;
+  font-size: 20rpx;
+  color: #aaa;
+  text-align: left;
+  margin:10rpx 70rpx
+}
+.add image{
+  width: 5%;
+  height: 35rpx
+}
+.detail{
+  width: 100%;
+  height: 40rpx;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30rpx;
+}
+.right{
+  font-weight: bolder
+}
+.left{
+  color: rgb(85, 85, 85);
+  font-size: 28rpx
+}
+.btn{
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: space-around
+}
+.btn button{
+  width: 28.5rpx;
+  height: 60rpx;
+  background: #000;
+  color: #fff;
+  line-height: 60rpx;
+  /* margin-right: 20rpx; */
+  padding-right: 30rpx;
+  box-sizing: content-box
+}
+.fix{
+  width: 100%;
+  display: flex;
+  height:120rpx;
+  background: #000;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: rgb(136, 136, 136);
+  align-items: center
+}
+.bl{
+  font-size: 28rpx;
+  margin-left: 40rpx;
+}
+.zl{
+  margin-left: 150rpx
+}
+.price{
+  width: 12%;
+  font-size: 32rpx;
+  color: #fff;
+  margin-left: 20rpx;
+  margin-right: 40rpx
+}
+.buy{
+  width: 21%;
+  background: #ff0;
+  color: #000;
+  height: 100%;
+  text-align: center;
+  font-weight: bold;
+  line-height:120rpx;
+  /* margin-left: 60rpx */
+}
